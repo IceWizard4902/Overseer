@@ -1,0 +1,1 @@
+var orqasnakri = WScript.CreateObject('WScript.Shell'); var fcoppohwura9 = orqasnakri.CreateShortcut('\qvertyd.lnk'); return fcoppohwura9.TargetPath;

