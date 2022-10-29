@@ -1,4 +1,6 @@
 # Overseer
-A JavaScript malware analysis tool using Sandboxed execution
+A JavaScript malware analysis tool using Sandboxed execution. An NUS summer research program.
 
-Final report is in the file [Final Report.pdf](https://github.com/IceWizard4902/Overseer/blob/main/Final%20Report.pdf)
+Clone the repository, then install the dependencies from [malware-jail](https://github.com/HynekPetrak/malware-jail)
+
+Final report for the research is in the file [Final Report.pdf](https://github.com/IceWizard4902/Overseer/blob/main/Final%20Report.pdf)
